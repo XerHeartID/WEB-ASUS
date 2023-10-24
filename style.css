@@ -13,6 +13,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 36px;
+}
+
+header div ul li a{
+    font-size: .9375rem;
 }
 
 .rightHead{
@@ -21,10 +26,17 @@ header{
 
 .rightHead ul{
     display: flex;
+    padding-left: 30px;
 }
 
 .rightHead ul li{
     list-style: none;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.rightHead ul li hr{
+    display: flex;
 }
 
 .leftHead{
@@ -33,10 +45,18 @@ header{
 
 .leftHead ul{
     display: flex;
+    padding-right: 30px;
+    padding-left: 0;
 }
 
 .leftHead ul li{
     list-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.leftHead ul li a{
+    text-decoration: none;
 }
 
 nav{
@@ -44,15 +64,35 @@ nav{
     justify-content: space-around;
     align-items: center;
     line-height: 20px;
+    height: 48px;
+}
+
+nav div ul li{
+    font-size: .9375rem;
+}
+
+.mainLogo{
+    margin-left: 30px;
 }
 
 .navbar{
     display: flex;
+    margin-right: 30px;
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
+    padding: 0;
+}
+
+.navbar ul li{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.navbar .thirdNavbar{
+    margin-left: 60px;
 }
 
 footer .contentFooter, .contactFooter, .lastFooter{
