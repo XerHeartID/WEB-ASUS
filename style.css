@@ -20,10 +20,6 @@ header div ul li a{
     font-size: .9375rem;
 }
 
-.rightHead{
-    float: right;
-}
-
 .rightHead ul{
     display: flex;
     padding-left: 30px;
@@ -37,10 +33,6 @@ header div ul li a{
 
 .rightHead ul li hr{
     display: flex;
-}
-
-.leftHead{
-    float: left;
 }
 
 .leftHead ul{
@@ -89,26 +81,223 @@ nav div ul li{
 .navbar ul li{
     margin-left: 14px;
     margin-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: default;
+}
+
+.navbar ul li:hover{
+    border-bottom: 2px solid black;
 }
 
 .navbar .thirdNavbar{
     margin-left: 60px;
 }
 
-footer .contentFooter, .contactFooter, .lastFooter{
+.section{
+    background-image: url(https://www.asus.com/WebsitesBanner/global/banners/hptvlmyculdznazo/hptvlmyculdznazo-0_0_desktop_0_1X.webp?webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 698px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section h1{
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 80px;
+    line-height: 60px;
+}
+
+.section a{
+    text-decoration: none;
+    color: #006ce1;
+    font-size: 18px;
+}
+
+.brandProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.brandProduct div{
+    padding: 0 12px;
+    width: 168px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandProduct div a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.brandProduct div a:hover{
+    border-bottom: 3px solid black;
+}
+
+.brandProduct div h5, .brandProduct div p{
+    margin: 6px 0;
+}
+
+.brandProduct div h5{
+    font-size: 15px;
+}
+
+.brandProduct div p{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+main{
+    background-color: #f5f5f5;
+    padding: 0 16px 80px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.windows11{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 1060px;
+}
+
+.windows11 a img{
+    height: 32px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.filter{
+    background-color: #fff;
+    padding: 4px 16px;
+    border-radius: 16px;
+    margin-right: 12px;
+    width: 340px;
+}
+
+.filter ul{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.filter ul li{
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filter ul li p{
+    margin-top: 6px;
+    margin-bottom: 2px;
+    color: black;
+    font-weight: 500;
+}
+
+.filter ul hr{
+    margin-top: 3px;
+}
+
+.article{
+    text-align: center;
+}
+
+.titleStudiobook{
+    padding: 0 51px;
+    margin-top: 36px;
+}
+
+.titleStudiobook p, .titleZenbook p, .titleVivobook p, .titleChromebook p{
+    margin: 4px 30px 0;
+}
+
+.boxStudiobook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    background-color: #fff;
+}
+
+.studiobookImg{
+    margin-left: 110px;
+}
+
+.studiobookContent{
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+.studiobookContent h2{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.studiobookContent a{
+    text-decoration: none;
+    color: #006ce1;
+    font-size: 17px;
+}
+
+.blueBoxStudiobook, .blueBoxZenbook, .blueBoxVivobook, .blueBoxChromebook{
+    display: flex;
+    justify-content: center;
+}
+
+.blueBoxStudiobook a, .blueBoxZenbook a, .blueBoxVivobook a, .blueBoxChromebook a{
+    text-decoration: none;
+    color: #006ce1;
+    border: 1px solid #006ce1;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 56px;
+}
+
+footer{
+    background-color: #f5f5f5;
+}
+
+footer .contentFooter, .contactFooter, .line, .lastFooter{
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.region{
-    float: right;
+.contactFooter{
+    height: 61px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.region a{
-    display: flex;
+.contactFooter div{
+    margin-bottom: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .lastFooter{
+    height: 36px;
     padding-top: 24px;
     padding-bottom: 24px;
     font-size: 13px;
@@ -120,5 +309,19 @@ footer .contentFooter, .contactFooter, .lastFooter{
 
 .lastFooter a{
     margin-left: 24px;
+    color: #4d4d4d;
     text-decoration: none;
+    padding-bottom: 4px;
+}
+
+.lastFooter a:hover{
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.region{
+    float: right;
+}
+
+.region a{
+    display: flex;
 }
