@@ -192,6 +192,7 @@ main{
     border-radius: 16px;
     margin-right: 12px;
     width: 340px;
+    height: 2340px;
 }
 
 .filter ul{
@@ -261,6 +262,52 @@ main{
     text-decoration: none;
     color: #006ce1;
     font-size: 17px;
+}
+
+.productList{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.productLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 36px 16px;
+    margin-right: 6px;
+    margin-bottom: 12px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.product h2{
+    margin: 0;
+}
+
+.productLink a{
+    text-decoration: none;
+    color: #006ce1;
+    margin: 0 6px;
+    padding: 6px 6px;
+}
+
+.productLink a:hover{
+    text-decoration: underline;
+}
+
+.screenSize{
+    border: 1px solid #006ce1;
+    border-radius: 8px;
 }
 
 .blueBoxStudiobook, .blueBoxZenbook, .blueBoxVivobook, .blueBoxChromebook{
@@ -364,3 +411,4 @@ footer .contentFooter, .contactFooter, .line, .lastFooter{
 .region a{
     display: flex;
 }
+
