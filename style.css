@@ -192,7 +192,7 @@ main{
     border-radius: 16px;
     margin-right: 12px;
     width: 340px;
-    height: 2340px;
+    height: 100%;
 }
 
 .filter ul{
