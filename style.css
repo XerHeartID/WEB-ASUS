@@ -16,8 +16,15 @@ header{
     height: 36px;
 }
 
-header div ul li a{
+header div .linkHeader li a{
     font-size: .9375rem;
+    color: #4d4d4d;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+header div .linkHeader li a:hover{
+    border-bottom: 2px solid black;
 }
 
 .rightHead ul{
@@ -279,6 +286,38 @@ footer{
 footer .contentFooter, .contactFooter, .line, .lastFooter{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.contentFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.contentFooter div{
+    display: flex;
+}
+
+.contentFooter div ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.contentFooter div ul .bold{
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.contentFooter div ul li a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.contentFooter div ul li a:hover{
+    border-bottom: 1px solid #4d4d4d;
 }
 
 .contactFooter{
